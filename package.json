@@ -1,0 +1,56 @@
+{
+  "name": "app-nuxt",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "author": {
+    "name": "cssninjaStudio <hello@cssninja.io> (https://cssninja.io)"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@cssninja/bulma-css-vars": "0.9.2",
+    "@fontsource-variable/fira-code": "5.0.18",
+    "@fontsource-variable/montserrat": "5.0.19",
+    "@fontsource-variable/roboto-flex": "5.0.15",
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "@fullcalendar/daygrid": "^6.1.13",
+    "@fullcalendar/interaction": "^6.1.13",
+    "@fullcalendar/timegrid": "^6.1.13",
+    "@fullcalendar/vue3": "^6.1.13",
+    "@nuxtjs/composition-api": "^0.34.0",
+    "@unhead/addons": "1.9.9",
+    "@unhead/ssr": "1.9.9",
+    "@unhead/vue": "1.9.9",
+    "@vueuse/core": "10.9.0",
+    "@vueuse/router": "10.9.0",
+    "bulma": "npm:@cssninja/bulma@0.9.4",
+    "defu": "6.1.4",
+    "focus-trap": "7.5.4",
+    "focus-trap-vue": "4.0.3",
+    "iconify-icon": "2.1.0",
+    "nuxt": "3.11.2",
+    "pinia": "2.1.7",
+    "primevue": "^3.52.0",
+    "vee-validate": "4.12.6",
+    "vue": "3.4.21",
+    "vue-router": "4.3.0"
+  },
+  "devDependencies": {
+    "@mdi/font": "^7.4.47",
+    "@types/node": "20.12.8",
+    "@vueuse/nuxt": "10.9.0",
+    "nuxt-primevue": "^3.0.0",
+    "sass": "npm:sass-embedded@1.75.0",
+    "typescript": "5.4.5",
+    "ufo": "1.5.3",
+    "vite": "5.2.11",
+    "vuetify": "3.6.0-beta.0.0"
+  }
+}
